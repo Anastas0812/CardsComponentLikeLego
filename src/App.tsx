@@ -1,9 +1,7 @@
-// import { useState } from 'react'
 import { Container } from './components/Container'
 import Card from './components/Card'
 import { TextBlock } from './components/Text'
 import { Button } from './components/Button'
-import { Img } from './components/Image'
 import { List } from './components/List'
 import { Link } from './components/Link'
 import { Footer } from './components/Footer'
@@ -16,8 +14,11 @@ function App() {
     <>
       <Container>
         <div className="card">
-          <Img src="#" alt="Image cap"></Img>
-          <Card title="Card title">
+        <Card
+          title="Card title"
+          imgSrc="#"
+          imgAlt="Image cap"
+        >
             <TextBlock text={`Some quick example text to build 
             on the card title and make up the bulk 
             of the card’s content.`}>
