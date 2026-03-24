@@ -41,8 +41,11 @@ function App() {
         </div>
 
         <div className="card">
-          <Img src="#" alt="Image cap"></Img>
-            <Card title="Card title">
+            <Card 
+            title="Card title"
+            imgSrc='#'
+            imgAlt='Image cap'
+            >
               <TextBlock text={`Some quick example text to build 
               on the card title and make up the bulk 
               of the card’s content.`}>
